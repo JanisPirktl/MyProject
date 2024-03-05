@@ -10,6 +10,7 @@ public class SuperCat extends Cat {
     this.power = power;
   }
 
+
   public boolean equals(Object o) {
     if (!(o instanceof SuperCat)) {
       return false; //instance of ist auch true, wenn subklasse von Cat ist.
@@ -18,4 +19,6 @@ public class SuperCat extends Cat {
     SuperCat superCat = (SuperCat) o;
     return getName().equals(superCat.getName()) && getWeight() == superCat.getWeight() && power.equals(superCat.power);
   }
+
+
 }

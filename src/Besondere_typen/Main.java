@@ -25,12 +25,14 @@ public class Main {
 
 
     catList.sort((c1, c2) -> c1.getName().compareTo(c2.getName())); //aufsteigend
+    catList.sort((c2, c1) -> c2.getName().compareTo(c1.getName())); //aufsteigend
     catList.sort((c2, c1) -> c1.getName().compareTo(c2.getName())); //absteigend
     catList.sort((c1, c2) -> c2.getName().compareTo(c1.getName())); //absteigend
 
     catList.sort(Comparator.comparing(Cat::getName)); //aufsteigend
     catList.sort(Comparator.comparing(Cat::getName).thenComparing(Cat::getWeight)); //aufsteigend Name, dann gewicht
     catList.sort(Comparator.comparing(Cat::getName).reversed()); //absteigend
+
     //theoretisch müsste Cat nicht mal Comparable implementieren um das zu können
 
     for (Cat cat : catList) {
@@ -55,6 +57,8 @@ public class Main {
 
     System.out.println(cat1.equals(scat1)); //true
     System.out.println(scat1.equals(cat1)); //false
+
+    System.out.println(System.identityHashCode(cat1) == cat1.hashCode());
 
   }
 }
