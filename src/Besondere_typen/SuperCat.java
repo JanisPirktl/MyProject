@@ -1,5 +1,7 @@
 package Besondere_typen;
 
+
+
 public class SuperCat extends Cat {
 
   private String power;

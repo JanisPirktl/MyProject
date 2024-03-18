@@ -1,0 +1,14 @@
+
+z
+java:S1192 "XDefine a constant instead of duplicating this literal "The remaining elements:" 3 times.(ûå£Ôşÿÿÿÿ8à™åå1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»ôéÕ8í™åå1
+T
+java:S1854Z"8Remove this useless assignment to local variable "even".(ÄËª-8ï™åå1
+b
+java:S1612"@Replace this lambda with method reference 'System.out::println'.(ÿ²Ù…ùÿÿÿÿ8ï™åå1
+_
+java:S16125"=Replace this lambda with method reference 'Integer::compare'.(öç›ûøÿÿÿÿ8ï™åå1
+E
+java:S1481Z")Remove this unused "even" local variable.(ÄËª-8ï™åå1
+_
+java:S1128"=Remove this unused import 'javax.lang.model.element.Element'.(¦¶¡›üÿÿÿÿ8ï™åå1

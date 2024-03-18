@@ -1,0 +1,14 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»ôéÕ8¹»å1
+f
+java:S1854'"DRemove this useless assignment to local variable "compareByWeight3".(ÃñÄüÿÿÿÿ8ñ»å1
+f
+java:S1854$"DRemove this useless assignment to local variable "compareByWeight2".(¦‡¨İûÿÿÿÿ8ñ»å1
+`
+java:S1854#"CRemove this useless assignment to local variable "compareByWeight".(Â÷ÑÛ8ñ»å1
+Q
+java:S1481#"4Remove this unused "compareByWeight" local variable.(Â÷ÑÛ8ø»å1
+W
+java:S1481$"5Remove this unused "compareByWeight2" local variable.(¦‡¨İûÿÿÿÿ8ø»å1
+W
+java:S1481'"5Remove this unused "compareByWeight3" local variable.(ÃñÄüÿÿÿÿ8ø»å1

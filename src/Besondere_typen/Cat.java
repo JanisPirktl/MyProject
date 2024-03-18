@@ -1,11 +1,12 @@
 package Besondere_typen;
 
+
 import java.util.Objects;
 
 public class Cat implements Comparable<Cat> {
 
   private final String name;
-  private final int weight;
+  private int weight;
 
   public Cat(String name, int weight) {
     Objects.requireNonNull(name);
@@ -32,6 +33,10 @@ public class Cat implements Comparable<Cat> {
 
   int getWeight() {
     return weight;
+  }
+
+  public void setWeight(int weight) {
+    this.weight = weight;
   }
 
   public String toString() {
