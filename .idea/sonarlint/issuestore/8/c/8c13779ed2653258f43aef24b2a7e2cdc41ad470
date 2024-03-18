@@ -1,12 +1,13 @@
 
 h
-java:S1192"FDefine a constant instead of duplicating this literal "Mitzi" 3 times.(åÿäñüÿÿÿÿ8ÃÄÎà1
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»ôéÕ8ÃÄÎà1
+java:S1192
+"FDefine a constant instead of duplicating this literal "Mitzi" 3 times.(åÿäñüÿÿÿÿ8Ÿ¦ƒàà1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»ôéÕ8 ¦ƒàà1
 [
-java:S1854+"9Remove this useless assignment to local variable "cat77".(´êßıÿÿÿÿ8ÃÄÎà1
+java:S1854,"9Remove this useless assignment to local variable "cat77".(´êßıÿÿÿÿ8©¦ƒàà1
 L
-java:S1481+"*Remove this unused "cat77" local variable.(´êßıÿÿÿÿ8ÃÄÎà1
+java:S1481,"*Remove this unused "cat77" local variable.(´êßıÿÿÿÿ8­¦ƒàà1
 b
-java:S1764-"ECorrect one of the identical sub-expressions on both sides of equals.(åˆú‘8€¨£›å1
+java:S1764."ECorrect one of the identical sub-expressions on both sides of equals.(åˆú‘8®¦ƒàà1
 m
-java:S17641"KCorrect one of the identical sub-expressions on both sides of operator "=="(¾¼ Äúÿÿÿÿ8ÃÄÎà1
+java:S17642"KCorrect one of the identical sub-expressions on both sides of operator "=="(¾¼ Äúÿÿÿÿ8¯¦ƒàà1
