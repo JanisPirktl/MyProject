@@ -1,18 +1,20 @@
+package PVA1und2.rocket;
+
 import java.util.* ;
 
 class A
 {
-  public String toString() { return "A"; }
+  public String toString() { return "PVA1und2.rocket.A"; }
 }
 
 class B extends A
 {
-  public String toString() { return "B"; }
+  public String toString() { return "PVA1und2.rocket.B"; }
 }
 
 class C extends B
 {
-  public String toString() { return "C"; }
+  public String toString() { return "PVA1und2.rocket.C"; }
 }
 
 public class A5

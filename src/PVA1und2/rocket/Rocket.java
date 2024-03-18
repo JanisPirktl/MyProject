@@ -1,4 +1,4 @@
-package rocket;
+package PVA1und2.rocket;
 
 public class Rocket<T> {
 

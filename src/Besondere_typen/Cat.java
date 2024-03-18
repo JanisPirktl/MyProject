@@ -53,8 +53,12 @@ public class Cat implements Comparable<Cat> {
     return name.equals(cat.name) && weight == cat.weight;
   }
 
+
+
   @Override
   public int hashCode() {
     return Objects.hash(name, weight);
   }
+
+
 }
