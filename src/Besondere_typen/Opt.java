@@ -22,7 +22,6 @@ public class Opt
 
     Optional<Double> avg = average(values);
 
-
     // Berechnet den Durchschnitt einer Liste und gebt ihn aus
     avg.ifPresentOrElse(
         a -> System.out.println("The average is: " + a),
