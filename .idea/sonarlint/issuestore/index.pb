@@ -1156,8 +1156,6 @@ W
 `
 0src/DesignPatterns/Observer/WeatherObserver.java,a\e\aefe15756309aa19b2f7bf7ab0e4f54855d202b6
 U
-%src/DesignPatterns/Observer/List.java,7\f\7f9e81141069cedc4e3588d3fa091a4bdc49d084
-U
 %src/DesignPatterns/Observer/Main.java,5\0\50e7624b10d7329bfba91835b9945b26c8ac651e
 \
 ,src/DesignPatterns/Observer/WeatherType.java,a\1\a1febe3555d7f473a3e74449962726b3834a7e74
@@ -1169,7 +1167,5 @@ n
 >src/DesignPatterns/Builder/MailpieceSlideDeterminatorTest.java,2\1\210461f1811f168677328d3026ac969eccec89c0
 `
 0src/DesignPatterns/Builder/MailpieceBuilder.java,a\3\a331ae3e1382250c343e56fdac29a5b01ba34dab
-T
-$src/DesignPatterns/Builder/List.java,0\1\01235fd8a5b7c7f8a196d695d70b9d3b34072788
 =
 MyProject.iml,a\1\a105f12253eccee8ea3aeb667b0710394dd4f960
