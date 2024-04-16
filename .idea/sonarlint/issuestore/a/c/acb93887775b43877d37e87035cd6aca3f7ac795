@@ -1,14 +1,30 @@
 
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»ôéÕ8¹»å1
-f
-java:S1854'"DRemove this useless assignment to local variable "compareByWeight3".(ÃñÄüÿÿÿÿ8ñ»å1
-f
-java:S1854$"DRemove this useless assignment to local variable "compareByWeight2".(¦‡¨İûÿÿÿÿ8ñ»å1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»ôéÕ8ç½œ±å1
+T
+java:S1854G"7Remove this useless assignment to local variable "res".(ŞÅÜé8‘‚Ÿ±å1
+T
+java:S1854F"7Remove this useless assignment to local variable "res".(ÄÇ½‚8Ô¾œ±å1
+T
+java:S1854E"7Remove this useless assignment to local variable "res".(Šæí»8Ô¾œ±å1
+T
+java:S1854<"7Remove this useless assignment to local variable "res".(‹­ü¦8Ô¾œ±å1
+Y
+java:S18549"7Remove this useless assignment to local variable "res".(áéÅüÿÿÿÿ8Õ¾œ±å1
+T
+java:S18548"7Remove this useless assignment to local variable "res".(îÚáé8Õ¾œ±å1
+T
+java:S18545"7Remove this useless assignment to local variable "res".(Æ°œ8Õ¾œ±å1
+Y
+java:S18544"7Remove this useless assignment to local variable "res".(Üğ§Óùÿÿÿÿ8Õ¾œ±å1
+S
+java:S18541"7Remove this useless assignment to local variable "res".(ôÉ¼M8Õ¾œ±å1
+a
+java:S1854""DRemove this useless assignment to local variable "compareByWeight3".(õß±Æ8Õ¾œ±å1
 `
-java:S1854#"CRemove this useless assignment to local variable "compareByWeight".(Â÷ÑÛ8ñ»å1
+java:S1854"CRemove this useless assignment to local variable "compareByWeight".(Â÷ÑÛ8Õ¾œ±å1
 Q
-java:S1481#"4Remove this unused "compareByWeight" local variable.(Â÷ÑÛ8ø»å1
-W
-java:S1481$"5Remove this unused "compareByWeight2" local variable.(¦‡¨İûÿÿÿÿ8ø»å1
-W
-java:S1481'"5Remove this unused "compareByWeight3" local variable.(ÃñÄüÿÿÿÿ8ø»å1
+java:S1481"4Remove this unused "compareByWeight" local variable.(Â÷ÑÛ8×¾œ±å1
+R
+java:S1481""5Remove this unused "compareByWeight3" local variable.(õß±Æ8×¾œ±å1
+D
+java:S14811"(Remove this unused "res" local variable.(ôÉ¼M8Ø¾œ±å1

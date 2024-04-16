@@ -1,13 +1,21 @@
-package Besondere_typen;
+package test;
 
-import java.util.* ;
+import java.util.List;
+import java.util.Optional;
 
 public class Opt
 {
   public Optional<Double> average(List<Double> list) {
 
-    return list.isEmpty() ? Optional.empty() : Optional.of(list.stream().reduce(0.0, Double::sum) / list.size());
+    if (list == null || list.isEmpty()) {
+      return Optional.empty();
+    }
 
+    Double avg = list.stream().reduce(0.0, Double::sum) / list.size();
+
+    return Optional.of(avg);
+
+    // return list.isEmpty() ? Optional.empty() : Optional.of(list.stream().reduce(0.0, Double::sum) / list.size());
   }
 
 
@@ -16,6 +24,7 @@ public class Opt
     Opt opt = new Opt() ;
 
     List<Double> numbers = List.of(1.0, 2.0, 3.0);
+
     // Berechnet den Durchschnitt einer Liste und gebt ihn aus
     Optional<Double> result = opt.average(numbers);
     result.ifPresent(System.out::println);
@@ -36,7 +45,6 @@ public class Opt
 
     String emptyResultString = emptyResult.map(r -> "Durchschnitt: " + r).orElse("Kein Resultat");
     System.out.println(emptyResultString);
-
 
   }
 }
