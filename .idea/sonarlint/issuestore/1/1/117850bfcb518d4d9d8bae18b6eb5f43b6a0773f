@@ -1,6 +1,4 @@
 
+k
+java:S1192"NDefine a constant instead of duplicating this literal "Kein Resultat" 3 times.(ε©ού8σΐ°ξ1
 v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»τιΥ8λτ—σι1
-Y
-java:S1854"7Remove this useless assignment to local variable "opt".(΄εοΨόÿÿÿÿ8ωτ—σι1
-J
-java:S1481"(Remove this unused "opt" local variable.(΄εοΨόÿÿÿÿ8ωτ—σι1

@@ -1,13 +1,12 @@
 package DesignPatterns.Factory;
 
-public class DialogFactory {
+abstract public class DialogFactory {
+  public static Dialog createDialog(DialogType dialogType) {
 
-  public static Dialog createDialog(DialogType type) {
-    if (type.equals(DialogType.CONSOLE)) {
-      return new ConsoleDialog();
-    } else if (type.equals(DialogType.WINDOWS)) {
-      return new SwingDialog();
-    }
-    throw new IllegalArgumentException("Unbekannter Dialogtyp: " + type);
+    return switch( dialogType ) {
+      case CONSOLE -> new ConsoleDialog();
+      case SWING   -> new SwingDialog();
+      default      -> throw new RuntimeException("Unsupported type");
+    };
   }
 }

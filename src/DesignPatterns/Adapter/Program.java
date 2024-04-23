@@ -7,6 +7,8 @@ package DesignPatterns.Adapter;
 // is from a library and the interface IPasswordGenerator isn't implemented.
 public class Program {
     public static void main(String[] args) {
+
+        // HERE ADAPTER
         CreateUserAccountCommand command = new CreateUserAccountCommand(new Adapter());
         command.execute();
     }
@@ -30,11 +32,9 @@ class CreateUserAccountCommand {
     }
 }
 
-
 interface IPasswordGenerator {
     String generatePassword();
 }
-
 class SimplePasswordGenerator implements IPasswordGenerator {
     @Override
     public String generatePassword(){

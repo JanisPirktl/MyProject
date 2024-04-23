@@ -1,7 +1,6 @@
 package DesignPatterns.Singleton;
 
-public class Main {
-
+public class Main22 {
   public static void main(String[] args) {
 
     SequenceNumber sn = SequenceNumber.INSTANCE;
@@ -10,5 +9,4 @@ public class Main {
     System.out.println(sn.next());
     System.out.println(sn.next());
   }
-
 }

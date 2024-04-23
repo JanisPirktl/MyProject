@@ -19,7 +19,7 @@ public class Weather {
         }
     }
     public void setWeather(WeatherType currentWeather) {
-        // Objects.requireNonNull(currentWeather);
+        Objects.requireNonNull(currentWeather);
         this.currentWeather = currentWeather;
         notifyObservers();
     }

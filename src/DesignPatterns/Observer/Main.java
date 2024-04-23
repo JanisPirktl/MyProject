@@ -1,7 +1,6 @@
 package DesignPatterns.Observer;
 
 public class Main {
-
     public static void main(String[] args) {
 
         Peter peter = new Peter();
@@ -13,6 +12,5 @@ public class Main {
         weather.addObserver(george);
 
         weather.setWeather(WeatherType.WINDY);
-        weather.setWeather(null);
     }
 }

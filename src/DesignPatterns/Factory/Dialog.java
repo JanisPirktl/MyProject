@@ -1,8 +1,5 @@
 package DesignPatterns.Factory;
 
-public abstract class Dialog {
-
-  public abstract String readString(String input);
-
-
+abstract public class Dialog {
+  abstract public String readString(String input);
 }
