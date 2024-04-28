@@ -1,0 +1,19 @@
+
+a
+java:S1854"DRemove this useless assignment to local variable "isSOmethingthere".(ÝÔì‘8Ùšªýè1
+Y
+java:S1854"<Remove this useless assignment to local variable "optional".(úøòÙ8Ùšªýè1
+J
+java:S2201"-The return value of "isPresent" must be used.(¾ÛÕ»8Ùšªýè1
+M
+java:S2201"+The return value of "isEmpty" must be used.(±—Ùùÿÿÿÿ8Úšªýè1
+J
+java:S1481"-Remove this unused "optional" local variable.(úøòÙ8Úšªýè1
+I
+java:S1481",Remove this unused "nothing" local variable.(”îüœ8À¡¿ýè1
+R
+java:S1481"5Remove this unused "isSOmethingthere" local variable.(ÝÔì‘8Úšªýè1
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8„®¯ýè1
+N
+java:S1128"1Remove this unused import 'java.util.Comparator'.(î¹ó¹8…®¯ýè1

@@ -1,0 +1,34 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»ôéÕ
+N
+java:S1854/"8Remove this useless assignment to local variable "res4".(³Ô£¥
+N
+java:S1854-"8Remove this useless assignment to local variable "res3".(ª¤ıë
+N
+java:S1854+"8Remove this useless assignment to local variable "res2".(éƒ¥¨
+M
+java:S1854("7Remove this useless assignment to local variable "res".(ı‚
+N
+java:S1854""8Remove this useless assignment to local variable "bool".(®½Å¢
+L
+java:S1854"6Remove this useless assignment to local variable "mP".(øíÀò
+M
+java:S1854"7Remove this useless assignment to local variable "mP2".(ğ¨°˜
+>
+java:S1481"(Remove this unused "mP2" local variable.(ğ¨°˜
+h
+java:S4276"RRefactor this code to use the more specialised Functional Interface 'IntPredicate'(øíÀò
+=
+java:S1481"'Remove this unused "mP" local variable.(øíÀò
+?
+java:S1481"")Remove this unused "bool" local variable.(®½Å¢
+>
+java:S1481("(Remove this unused "res" local variable.(ı‚
+?
+java:S1481+")Remove this unused "res2" local variable.(éƒ¥¨
+?
+java:S1481-")Remove this unused "res3" local variable.(ª¤ıë
+?
+java:S1481/")Remove this unused "res4" local variable.(³Ô£¥
+S
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ
