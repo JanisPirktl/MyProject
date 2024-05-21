@@ -1,10 +1,8 @@
 package PVA8_Streams.NumberStream;
 
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
-import java.util.OptionalDouble;
-import java.util.Random;
+import PVA8_Streams.Person;
+
+import java.util.*;
 import java.util.stream.*;
 import java.util.concurrent.*;
 
@@ -25,11 +23,11 @@ public class NumberStream {
                 .map(n -> n * n)
                 .sum());
 
-        int result = IntStream.iterate(1, n -> n + 1)
+        int result55 = IntStream.iterate(1, n -> n + 1)
                 .limit(100)
                 .map(n -> n * n)
                 .sum();
-        System.out.println(result);
+        System.out.println(result55);
 
         // Print the average of the odd numbers less than 100
         IntStream.iterate(1, n -> n + 2)
@@ -57,5 +55,41 @@ public class NumberStream {
         int[] numbers = IntStream.rangeClosed(1, 100)
                 .filter(n -> n % 2 != 0)
                 .toArray();
+
+        boolean hasOddNumber = Arrays.stream(numbers).noneMatch(n -> n % 2 == 0);
+
+
+        Stream<Integer> integerStream = Stream.of(1, 2, 3, 4, 5);
+
+        Optional<Integer> sumResult = integerStream.reduce(Integer::sum);
+
+        if (sumResult.isPresent()) {
+            System.out.println("Sum of elements: " + sumResult.get());
+        } else {
+            System.out.println("No elements found in the stream");
+        }
+
+
+        Stream<String> stringStream = Stream.of("apple", "banana", "cherry");
+
+        Optional<String> concatenationResult = stringStream.reduce((s1, s2) -> s1 + ", " + s2);
+
+        if (concatenationResult.isPresent()) {
+            System.out.println("Concatenated string: " + concatenationResult.get());
+        } else {
+            System.out.println("No elements found in the stream");
+        }
+
+
+        Stream<Person> personStream = Stream.of(new Person("Alice", 30), new Person("Bob", 25), new Person("Charlie", 35));
+
+        Optional<Person> oldestPersonResult = personStream.reduce((p1, p2) -> p1.getAge() > p2.getAge() ? p1 : p2);
+
+        if (oldestPersonResult.isPresent()) {
+            System.out.println("Oldest person: " + oldestPersonResult.get());
+        } else {
+            System.out.println("No elements found in the stream");
+        }
+
     }
 }
