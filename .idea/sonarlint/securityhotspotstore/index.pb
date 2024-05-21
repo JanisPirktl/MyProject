@@ -21,17 +21,17 @@ S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
 N
 src/Besondere_typen/Main2.java,7\a\7aa2a1253c94abdbfd6191a95510fe1380de0473
-a
-1src/Datenstrukturen_und_Algorithmen/A15_2_10.java,f\b\fb3da97293cc1fc383bbf57756ae6fbfdb224289
-W
-'src/Synchronized/EventlistenerList.java,4\1\41da5aa44b7ae7302e672d107811e21a0847551c
 l
 <src/Datenstrukturen_und_Algorithmen/LinkedList_Iterator.java,1\b\1bf8cb3de88e9e91f6830b73d71f3b3210db6e2c
-r
-Bsrc/Datenstrukturen_und_Algorithmen/DoppelteElementeEntfernen.java,4\3\43f7cf914e29be453ce20eb7da787485fc834e6c
-f
-6src/Datenstrukturen_und_Algorithmen/LinkedHashSet.java,3\0\30a530254f1d53753b161c500a096fb1eb8ec791
 m
 =src/Datenstrukturen_und_Algorithmen/LinkedHashSetExample.java,c\5\c564bf2d8d6ee9027681820192c3c8753d194b2e
 c
 3src/Datenstrukturen_und_Algorithmen/MapExample.java,9\9\991cd8f2a687124589bac902eba9becc75169303
+U
+%src/PVA8_Streams/CatListExercise.java,7\f\7f37956606c657feaf642bad71ea7ac706b56482
+O
+src/PVA8_Streams/GenderCat.java,0\1\01904f5a743751f32411dc816663417e452878cc
+L
+src/PVA8_Streams/Gender.java,8\e\8e2970eb05ab92ae07382a367696cf9800155588
+_
+/src/PVA8_Streams/NumberStream/NumberStream.java,f\0\f0e23189c9081a89cdfcf96b158e23382c1bcad4
