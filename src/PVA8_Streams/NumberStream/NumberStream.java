@@ -71,14 +71,38 @@ public class NumberStream {
                 new Person("Charlie", 36)
         );
 
-        // Umwandlung der Liste in eine Map mit ID als Schlüssel und Name als Wert
-        Map<Integer, String> peopleMap = people.stream()
-                .collect(Collectors.toMap(Person::getAge, Person::getName));
-
-        // Ausgabe der resultierenden Map
-        peopleMap.forEach((id, name) -> System.out.println("ID: " + id + ", Name: " + name));
 
 
+
+        List<Person> people2 = Arrays.asList(
+                new Person("Alice", 30),
+                new Person("Bob", 20),
+                new Person("Charlie", 30),
+                new Person("David", 20),
+                new Person("Eve", 25)
+        );
+
+        Map<Integer, List<Person>> peopleByAge = people2.stream()
+                .collect(Collectors.groupingBy(Person::getAge));
+
+
+
+        Map<Integer, List<Person>> peopleByAge2 = people.stream()
+                .collect(Collectors.groupingBy(person -> person.getAge()));
+
+        //
+        peopleByAge.forEach((age, ppl) -> {
+            System.out.println("Age " + age + ": " + ppl);
+        });
+        //
+
+
+        peopleByAge.forEach((age, ppl) -> {
+            String names = ppl.stream()
+                    .map(Person::getName)
+                    .collect(Collectors.joining(", "));
+            System.out.println("Age " + age + ": " + names);
+        });
 
 
 
