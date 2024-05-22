@@ -58,38 +58,29 @@ public class NumberStream {
 
         boolean hasOddNumber = Arrays.stream(numbers).noneMatch(n -> n % 2 == 0);
 
+        int sumOfSquares = IntStream.range(1, 11) // 1 - 10
+                .map(n -> n * n)
+                .sum();
 
-        Stream<Integer> integerStream = Stream.of(1, 2, 3, 4, 5);
-
-        Optional<Integer> sumResult = integerStream.reduce(Integer::sum);
-
-        if (sumResult.isPresent()) {
-            System.out.println("Sum of elements: " + sumResult.get());
-        } else {
-            System.out.println("No elements found in the stream");
-        }
+        System.out.println("Die Summe der Quadrate von 1 bis 10 ist: " + sumOfSquares);
 
 
-        Stream<String> stringStream = Stream.of("apple", "banana", "cherry");
+        List<Person> people = Arrays.asList(
+                new Person("Alice", 30),
+                new Person("Bob", 33),
+                new Person("Charlie", 36)
+        );
 
-        Optional<String> concatenationResult = stringStream.reduce((s1, s2) -> s1 + ", " + s2);
+        // Umwandlung der Liste in eine Map mit ID als Schlüssel und Name als Wert
+        Map<Integer, String> peopleMap = people.stream()
+                .collect(Collectors.toMap(Person::getAge, Person::getName));
 
-        if (concatenationResult.isPresent()) {
-            System.out.println("Concatenated string: " + concatenationResult.get());
-        } else {
-            System.out.println("No elements found in the stream");
-        }
+        // Ausgabe der resultierenden Map
+        peopleMap.forEach((id, name) -> System.out.println("ID: " + id + ", Name: " + name));
 
 
-        Stream<Person> personStream = Stream.of(new Person("Alice", 30), new Person("Bob", 25), new Person("Charlie", 35));
 
-        Optional<Person> oldestPersonResult = personStream.reduce((p1, p2) -> p1.getAge() > p2.getAge() ? p1 : p2);
 
-        if (oldestPersonResult.isPresent()) {
-            System.out.println("Oldest person: " + oldestPersonResult.get());
-        } else {
-            System.out.println("No elements found in the stream");
-        }
 
     }
 }
