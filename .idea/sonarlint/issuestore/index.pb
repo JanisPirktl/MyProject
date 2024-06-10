@@ -35,3 +35,11 @@ L
 src/PVA8_Streams/Gender.java,8\e\8e2970eb05ab92ae07382a367696cf9800155588
 _
 /src/PVA8_Streams/NumberStream/NumberStream.java,f\0\f0e23189c9081a89cdfcf96b158e23382c1bcad4
+J
+src/PVA10/DirEmulator.java,b\1\b116c6b890c6628037600dd0fe49ecb5e915cbaf
+J
+src/PVA10/dirEmulator.java,6\4\6409887b26338dceb9cb869c66a42d60bf16a9d0
+O
+src/PVA10/ProducerConsumer.java,d\0\d099440de5315c26aded95968f55da1a6deba389
+L
+src/PVA10/EndlessThread.java,5\8\5880500361a1f4af2a802e298e9e94872b9c3d59
