@@ -9,7 +9,7 @@ import java.nio.file.Paths;
 
 public class FileWriter {
 
-    public static void readFileAsStream(Path readFilePath, Path writeFilePath) throws IOException {
+    public static void writeFromFile (Path readFilePath, Path writeFilePath) throws IOException {
         try (BufferedReader bufferedReader = Files.newBufferedReader(readFilePath);
                 BufferedWriter bufferedWriter = Files.newBufferedWriter(writeFilePath)) {
 
@@ -34,6 +34,6 @@ public class FileWriter {
         Path readFilePath = Paths.get("res/textFile1.txt");
         Path writeFilePath = Paths.get("res/textFile2.txt");
 
-        readFileAsStream(readFilePath, writeFilePath);
+        writeFromFile(readFilePath, writeFilePath);
     }
 }
