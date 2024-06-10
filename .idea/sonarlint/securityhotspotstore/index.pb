@@ -43,3 +43,13 @@ O
 src/PVA10/ProducerConsumer.java,d\0\d099440de5315c26aded95968f55da1a6deba389
 L
 src/PVA10/EndlessThread.java,5\8\5880500361a1f4af2a802e298e9e94872b9c3d59
+<
+res/text.txt,6\4\64175b014ff9c0eb1821701b16bbe59a0d7d52bd
+G
+src/PVA10/TextFile.java,e\8\e89e778060304ecb40f1c128e8a22c15e488d858
+B
+src/PVA10/Dir.java,c\c\cca132e5816eb94873d94d1306b78b60d698cc1e
+I
+src/PVA10/FileWriter.java,9\2\925360c962945347c4183a8e04bb8bd9e600e74a
+=
+MyProject.iml,a\1\a105f12253eccee8ea3aeb667b0710394dd4f960
